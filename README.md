@@ -1,6 +1,6 @@
-# multi-request-proxy
+# 🐙 MuxProxy
 
-A reverse web proxy that adds a `POST /multirequest`
+A reverse web proxy that adds a `POST /mux`
 endpoint to any web server. This endpoints accepts
 JSON requests of the form:
 

@@ -79,7 +79,7 @@ let proxy = httpProxy.createProxyServer({ target });
 
 app.use(bodyParser.json());
 
-app.post('/multirequest', (req, res) => {
+app.post('/mux', (req, res) => {
   (async () => {
     res.slots = {};
     res.pluckSlotNames = new Set();
